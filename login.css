@@ -1,0 +1,59 @@
+#heading{
+    display: flex;
+    justify-content: center;
+    color: lightseagreen;
+    font-size:40px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    background-image: url("appex.jpg");
+  background-size: cover;                 
+  background-position: center; 
+  background-size: contain;            
+  background-repeat: no-repeat;           
+  background-attachment: fixed;           
+
+}
+form{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+     gap:5px;
+     color:#000f89
+   width: 40%
+   align-items: center;
+}
+#log_in input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+}
+#log_in{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input::placeholder {
+
+  text-align: center;
+}
+#sub{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  gap:5px;
+    color:#890034
+   width: 40%
+   align-items: center;
+}
+#loginForm label{
+  color:#8b008b;
+}
