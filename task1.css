@@ -1,0 +1,57 @@
+#task_1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 99%;
+    height: 130px; /* or set a usable fixed height */
+    color: black;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #48d1cc;
+    transition: transform 0.3s ease;
+}
+
+#menu1, #menu2, #menu3 {
+     font-size: 30px;   
+    cursor: pointer;
+}
+
+#task_1:hover {
+    transform: translateY(-5px);
+}
+    #img_1 {
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically (if height is set) */
+    height: 200px;             /* optional: set height for vertical centering */ /* optional: background color */
+    padding: 10px;
+}
+#img_1 img {
+    margin-top: 100px;
+    width: 50%;     /* Set desired width */
+    height: auto;     /* Maintain aspect ratio */
+}
+#img_1 img {
+    max-width: 100%;   /* responsive sizing */
+    height: auto;
+    border-radius: 10px; /* optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* optional: shadow */
+}
+#head{
+     margin-top: 100px;
+     color: black;
+    text-align: center;
+}
+#para_1{
+    color:blue;
+    font-size: 20px;
+}
+#para_1 ul{
+    border-radius: 8px;
+}
+#para_1 ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
